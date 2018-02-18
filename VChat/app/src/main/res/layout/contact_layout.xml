@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/box2"
+    android:id="@+id/contact"
+    android:layout_marginBottom="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Popovic Vukasin"
+            android:textColor="@color/my_green"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:text="0628838345"
+            android:id="@+id/phone"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewMail"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/mail"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>
